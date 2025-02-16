@@ -1,0 +1,80 @@
+/* ✅ Pagination centrée avec design moderne */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* ✅ Style pour le tableau */
+  .table {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ✅ Style pour les en-têtes */
+  .thead-dark th {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 12px;
+  }
+  
+  /* ✅ Style pour les lignes */
+  tbody tr {
+    transition: background 0.3s ease-in-out;
+  }
+  
+  tbody tr:hover {
+    background-color: #f8f9fa;
+  }
+  
+  /* ✅ Style pour les nombres */
+  th[scope="row"] {
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+  }
+  
+  /* ✅ Style pour les cases (cellules du tableau) */
+  td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  /* ✅ Style pour les boutons */
+  button {
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-outline-primary {
+    border: 2px solid #007bff;
+    color: #007bff;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #a71d2a;
+  }
+  
